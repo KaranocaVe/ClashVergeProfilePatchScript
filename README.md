@@ -1,0 +1,2 @@
+# ClashVergeProfilePatchScript
+一个js脚本，用于向clash verge的策略组中添加自动选择和均衡负载
