@@ -6,7 +6,7 @@ function main(params) {
     proxies: proxies,
     url: 'https://www.gstatic.com/generate_204',
     interval: 300,
-    strategy: "round-robin"
+    strategy: "consistent-hashing"
   }
 
   let lb = {
