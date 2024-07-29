@@ -1,7 +1,7 @@
 function main(params) {
   let proxies = params.proxies.map(x => x.name);
   let la = {
-    name: "均衡负载-哈希",
+    name: "均衡负载-散列",
     type: "load-balance",
     proxies: proxies,
     url: 'https://www.gstatic.com/generate_204',
